@@ -48,10 +48,11 @@ const SliderCard = ({ cardData, name }) => {
                     <Row gutter={4}>
                       <Col span={22}>
                         <Card
+                        width={150}
                           cover={
                             <img
                               alt="example"
-                              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                              src={d.image}
                             />
                           }
                         >
