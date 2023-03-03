@@ -6,7 +6,7 @@ const RoutesPaths = [
     component: lazy(() => import("../../Pages/card")),
   },
   {
-    path: "/shopsdefault",
+    path: "/card-details",
     component: lazy(() => import("../../Pages/carddetails")),
   },
 ];
